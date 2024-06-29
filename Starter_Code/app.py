@@ -1,4 +1,16 @@
 # Import the dependencies.
+import numpy as np
+import pandas as pd
+import datetime as dt
+import re
+
+# Python SQL toolkit and Object Relational Mapper
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.inspection import inspect
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func
+from flask import Flask, jsonify
 
 
 
